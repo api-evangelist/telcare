@@ -1,8 +1,27 @@
 aid: telcare
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/telcare.png
 name: Telcare
-description: 'Telcare is a company surfaced as a portfolio company of norwest-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Telcare was a digital-health company that built the first cellular-enabled
+  blood glucose monitoring (BGM) system: a meter with an embedded cellular module that
+  pushed readings to Telcare''s Telserve/Telcloud back end, connected to EMR systems,
+  and paired with companion smartphone apps for people managing diabetes and their
+  caregivers. The brand was acquired into BioTelemetry and is now part of Philips
+  (BioTel Care); the telcare.com domain redirects to Philips ambulatory monitoring,
+  and device-data integration is offered through the third-party Validic health-data
+  platform rather than a first-party public API. Surfaced as a Norwest Venture Partners
+  portfolio lead; enrichment found no first-party developer portal, OpenAPI, or public
+  API surface for the Telcare brand.'
 url: https://raw.githubusercontent.com/api-evangelist/telcare/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +29,23 @@ x-backed-by:
 - norwest-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-status-note: 'telcare.com redirects (301) to www.gobio.com/health-management then
+  to Philips ambulatory monitoring; product lives on as Philips BioTel Care. No first-party
+  Telcare API surface found during enrichment (2026-07-21).'
+x-successor: philips-biotel-care
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Unknown
+- Digital Health
+- Medical Devices
+- Diabetes
+- Remote Patient Monitoring
+- Blood Glucose Monitoring
+- Health
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +55,8 @@ maintainers:
 common:
 - type: Website
   url: https://telcare.com
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
