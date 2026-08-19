@@ -34,7 +34,7 @@ x-status-note: 'telcare.com redirects (301) to www.gobio.com/health-management t
   to Philips ambulatory monitoring; product lives on as Philips BioTel Care. No first-party
   Telcare API surface found during enrichment (2026-07-21).'
 x-successor: philips-biotel-care
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
