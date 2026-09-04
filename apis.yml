@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://telcare.com', status: 301, note: 'declared website redirects to https://www.usa.philips.com/healthcare/ambulatory-monitoring-and-diagnostics — a different registrable domain (telcare.com -> philips.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/telcare.png
 name: Telcare
 description: 'Telcare was a digital-health company that built the first cellular-enabled
